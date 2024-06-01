@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFBF68532C0AD08F0083BD6B /* BetterBoxdAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF68522C0AD08F0083BD6B /* BetterBoxdAuthApp.swift */; };
+		CFBF68552C0AD08F0083BD6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF68542C0AD08F0083BD6B /* ContentView.swift */; };
+		CFBF68572C0AD0900083BD6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBF68562C0AD0900083BD6B /* Assets.xcassets */; };
+		CFBF685A2C0AD0900083BD6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFBF68592C0AD0900083BD6B /* Preview Assets.xcassets */; };
+		CFBF68642C0AD0900083BD6B /* BetterBoxdAuthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF68632C0AD0900083BD6B /* BetterBoxdAuthTests.swift */; };
+		CFBF686E2C0AD0900083BD6B /* BetterBoxdAuthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF686D2C0AD0900083BD6B /* BetterBoxdAuthUITests.swift */; };
+		CFBF68702C0AD0900083BD6B /* BetterBoxdAuthUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF686F2C0AD0900083BD6B /* BetterBoxdAuthUITestsLaunchTests.swift */; };
+		CFBF687E2C0AD0C50083BD6B /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = CFBF687D2C0AD0C50083BD6B /* Auth0 */; };
+		CFBF68802C0AD0F30083BD6B /* AuthStarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */; };
+		CFBF68822C0AD13A0083BD6B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF68812C0AD13A0083BD6B /* Profile.swift */; };
+		CFBF68842C0AD2BA0083BD6B /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFBF68832C0AD2BA0083BD6B /* Auth0.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFBF68602C0AD0900083BD6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBF68472C0AD08F0083BD6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBF684E2C0AD08F0083BD6B;
+			remoteInfo = BetterBoxdAuth;
+		};
+		CFBF686A2C0AD0900083BD6B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFBF68472C0AD08F0083BD6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFBF684E2C0AD08F0083BD6B;
+			remoteInfo = BetterBoxdAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFBF684F2C0AD08F0083BD6B /* BetterBoxdAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BetterBoxdAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBF68522C0AD08F0083BD6B /* BetterBoxdAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBoxdAuthApp.swift; sourceTree = "<group>"; };
+		CFBF68542C0AD08F0083BD6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFBF68562C0AD0900083BD6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFBF68592C0AD0900083BD6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFBF685F2C0AD0900083BD6B /* BetterBoxdAuthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterBoxdAuthTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBF68632C0AD0900083BD6B /* BetterBoxdAuthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBoxdAuthTests.swift; sourceTree = "<group>"; };
+		CFBF68692C0AD0900083BD6B /* BetterBoxdAuthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterBoxdAuthUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFBF686D2C0AD0900083BD6B /* BetterBoxdAuthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBoxdAuthUITests.swift; sourceTree = "<group>"; };
+		CFBF686F2C0AD0900083BD6B /* BetterBoxdAuthUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterBoxdAuthUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStarterView.swift; sourceTree = "<group>"; };
+		CFBF68812C0AD13A0083BD6B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		CFBF68832C0AD2BA0083BD6B /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFBF684C2C0AD08F0083BD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF687E2C0AD0C50083BD6B /* Auth0 in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF685C2C0AD0900083BD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF68662C0AD0900083BD6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFBF68462C0AD08F0083BD6B = {
+			isa = PBXGroup;
+			children = (
+				CFBF68512C0AD08F0083BD6B /* BetterBoxdAuth */,
+				CFBF68622C0AD0900083BD6B /* BetterBoxdAuthTests */,
+				CFBF686C2C0AD0900083BD6B /* BetterBoxdAuthUITests */,
+				CFBF68502C0AD08F0083BD6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFBF68502C0AD08F0083BD6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF684F2C0AD08F0083BD6B /* BetterBoxdAuth.app */,
+				CFBF685F2C0AD0900083BD6B /* BetterBoxdAuthTests.xctest */,
+				CFBF68692C0AD0900083BD6B /* BetterBoxdAuthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFBF68512C0AD08F0083BD6B /* BetterBoxdAuth */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF68522C0AD08F0083BD6B /* BetterBoxdAuthApp.swift */,
+				CFBF68542C0AD08F0083BD6B /* ContentView.swift */,
+				CFBF68562C0AD0900083BD6B /* Assets.xcassets */,
+				CFBF68582C0AD0900083BD6B /* Preview Content */,
+				CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */,
+				CFBF68812C0AD13A0083BD6B /* Profile.swift */,
+				CFBF68832C0AD2BA0083BD6B /* Auth0.plist */,
+			);
+			path = BetterBoxdAuth;
+			sourceTree = "<group>";
+		};
+		CFBF68582C0AD0900083BD6B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF68592C0AD0900083BD6B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFBF68622C0AD0900083BD6B /* BetterBoxdAuthTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF68632C0AD0900083BD6B /* BetterBoxdAuthTests.swift */,
+			);
+			path = BetterBoxdAuthTests;
+			sourceTree = "<group>";
+		};
+		CFBF686C2C0AD0900083BD6B /* BetterBoxdAuthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF686D2C0AD0900083BD6B /* BetterBoxdAuthUITests.swift */,
+				CFBF686F2C0AD0900083BD6B /* BetterBoxdAuthUITestsLaunchTests.swift */,
+			);
+			path = BetterBoxdAuthUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFBF684E2C0AD08F0083BD6B /* BetterBoxdAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBF68732C0AD0900083BD6B /* Build configuration list for PBXNativeTarget "BetterBoxdAuth" */;
+			buildPhases = (
+				CFBF684B2C0AD08F0083BD6B /* Sources */,
+				CFBF684C2C0AD08F0083BD6B /* Frameworks */,
+				CFBF684D2C0AD08F0083BD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BetterBoxdAuth;
+			packageProductDependencies = (
+				CFBF687D2C0AD0C50083BD6B /* Auth0 */,
+			);
+			productName = BetterBoxdAuth;
+			productReference = CFBF684F2C0AD08F0083BD6B /* BetterBoxdAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFBF685E2C0AD0900083BD6B /* BetterBoxdAuthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBF68762C0AD0900083BD6B /* Build configuration list for PBXNativeTarget "BetterBoxdAuthTests" */;
+			buildPhases = (
+				CFBF685B2C0AD0900083BD6B /* Sources */,
+				CFBF685C2C0AD0900083BD6B /* Frameworks */,
+				CFBF685D2C0AD0900083BD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBF68612C0AD0900083BD6B /* PBXTargetDependency */,
+			);
+			name = BetterBoxdAuthTests;
+			productName = BetterBoxdAuthTests;
+			productReference = CFBF685F2C0AD0900083BD6B /* BetterBoxdAuthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFBF68682C0AD0900083BD6B /* BetterBoxdAuthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFBF68792C0AD0900083BD6B /* Build configuration list for PBXNativeTarget "BetterBoxdAuthUITests" */;
+			buildPhases = (
+				CFBF68652C0AD0900083BD6B /* Sources */,
+				CFBF68662C0AD0900083BD6B /* Frameworks */,
+				CFBF68672C0AD0900083BD6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFBF686B2C0AD0900083BD6B /* PBXTargetDependency */,
+			);
+			name = BetterBoxdAuthUITests;
+			productName = BetterBoxdAuthUITests;
+			productReference = CFBF68692C0AD0900083BD6B /* BetterBoxdAuthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFBF68472C0AD08F0083BD6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CFBF684E2C0AD08F0083BD6B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CFBF685E2C0AD0900083BD6B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFBF684E2C0AD08F0083BD6B;
+					};
+					CFBF68682C0AD0900083BD6B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CFBF684E2C0AD08F0083BD6B;
+					};
+				};
+			};
+			buildConfigurationList = CFBF684A2C0AD08F0083BD6B /* Build configuration list for PBXProject "BetterBoxdAuth" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFBF68462C0AD08F0083BD6B;
+			packageReferences = (
+				CFBF687C2C0AD0C50083BD6B /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
+			productRefGroup = CFBF68502C0AD08F0083BD6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFBF684E2C0AD08F0083BD6B /* BetterBoxdAuth */,
+				CFBF685E2C0AD0900083BD6B /* BetterBoxdAuthTests */,
+				CFBF68682C0AD0900083BD6B /* BetterBoxdAuthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFBF684D2C0AD08F0083BD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF685A2C0AD0900083BD6B /* Preview Assets.xcassets in Resources */,
+				CFBF68842C0AD2BA0083BD6B /* Auth0.plist in Resources */,
+				CFBF68572C0AD0900083BD6B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF685D2C0AD0900083BD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF68672C0AD0900083BD6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFBF684B2C0AD08F0083BD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF68802C0AD0F30083BD6B /* AuthStarterView.swift in Sources */,
+				CFBF68822C0AD13A0083BD6B /* Profile.swift in Sources */,
+				CFBF68552C0AD08F0083BD6B /* ContentView.swift in Sources */,
+				CFBF68532C0AD08F0083BD6B /* BetterBoxdAuthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF685B2C0AD0900083BD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF68642C0AD0900083BD6B /* BetterBoxdAuthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFBF68652C0AD0900083BD6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFBF686E2C0AD0900083BD6B /* BetterBoxdAuthUITests.swift in Sources */,
+				CFBF68702C0AD0900083BD6B /* BetterBoxdAuthUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFBF68612C0AD0900083BD6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBF684E2C0AD08F0083BD6B /* BetterBoxdAuth */;
+			targetProxy = CFBF68602C0AD0900083BD6B /* PBXContainerItemProxy */;
+		};
+		CFBF686B2C0AD0900083BD6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFBF684E2C0AD08F0083BD6B /* BetterBoxdAuth */;
+			targetProxy = CFBF686A2C0AD0900083BD6B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFBF68712C0AD0900083BD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFBF68722C0AD0900083BD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFBF68742C0AD0900083BD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterBoxdAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = DLJJAQPB97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ahmedg10.BetterBoxdAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFBF68752C0AD0900083BD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BetterBoxdAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = DLJJAQPB97;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ahmedg10.BetterBoxdAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFBF68772C0AD0900083BD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLJJAQPB97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ahmedg10.BetterBoxdAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterBoxdAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterBoxdAuth";
+			};
+			name = Debug;
+		};
+		CFBF68782C0AD0900083BD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLJJAQPB97;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ahmedg10.BetterBoxdAuthTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BetterBoxdAuth.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BetterBoxdAuth";
+			};
+			name = Release;
+		};
+		CFBF687A2C0AD0900083BD6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLJJAQPB97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ahmedg10.BetterBoxdAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterBoxdAuth;
+			};
+			name = Debug;
+		};
+		CFBF687B2C0AD0900083BD6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DLJJAQPB97;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.uw.ischool.ahmedg10.BetterBoxdAuthUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BetterBoxdAuth;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFBF684A2C0AD08F0083BD6B /* Build configuration list for PBXProject "BetterBoxdAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF68712C0AD0900083BD6B /* Debug */,
+				CFBF68722C0AD0900083BD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBF68732C0AD0900083BD6B /* Build configuration list for PBXNativeTarget "BetterBoxdAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF68742C0AD0900083BD6B /* Debug */,
+				CFBF68752C0AD0900083BD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBF68762C0AD0900083BD6B /* Build configuration list for PBXNativeTarget "BetterBoxdAuthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF68772C0AD0900083BD6B /* Debug */,
+				CFBF68782C0AD0900083BD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFBF68792C0AD0900083BD6B /* Build configuration list for PBXNativeTarget "BetterBoxdAuthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF687A2C0AD0900083BD6B /* Debug */,
+				CFBF687B2C0AD0900083BD6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CFBF687C2C0AD0C50083BD6B /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CFBF687D2C0AD0C50083BD6B /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CFBF687C2C0AD0C50083BD6B /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CFBF68472C0AD08F0083BD6B /* Project object */;
+}
