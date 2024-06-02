@@ -18,6 +18,10 @@
 		CFBF68802C0AD0F30083BD6B /* AuthStarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */; };
 		CFBF68822C0AD13A0083BD6B /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBF68812C0AD13A0083BD6B /* Profile.swift */; };
 		CFBF68842C0AD2BA0083BD6B /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFBF68832C0AD2BA0083BD6B /* Auth0.plist */; };
+		CFE9CA222C0D17C7009C7E7E /* AuthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9CA212C0D17C7009C7E7E /* AuthController.swift */; };
+		CFE9CA252C0D1CFA009C7E7E /* OnboardingView .swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9CA242C0D1CFA009C7E7E /* OnboardingView .swift */; };
+		CFE9CA272C0D2109009C7E7E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9CA262C0D2109009C7E7E /* ProfileView.swift */; };
+		CFE9CA292C0D22B9009C7E7E /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9CA282C0D22B9009C7E7E /* Styling.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthStarterView.swift; sourceTree = "<group>"; };
 		CFBF68812C0AD13A0083BD6B /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		CFBF68832C0AD2BA0083BD6B /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		CFE9CA212C0D17C7009C7E7E /* AuthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthController.swift; sourceTree = "<group>"; };
+		CFE9CA242C0D1CFA009C7E7E /* OnboardingView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingView .swift"; sourceTree = "<group>"; };
+		CFE9CA262C0D2109009C7E7E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CFE9CA282C0D22B9009C7E7E /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +110,15 @@
 		CFBF68512C0AD08F0083BD6B /* BetterBoxdAuth */ = {
 			isa = PBXGroup;
 			children = (
+				CFE9CA202C0D1288009C7E7E /* Controller */,
+				CFE9CA1F2C0D1272009C7E7E /* Models  */,
+				CFE9CA1E2C0D1269009C7E7E /* Views */,
 				CFBF68522C0AD08F0083BD6B /* BetterBoxdAuthApp.swift */,
 				CFBF68542C0AD08F0083BD6B /* ContentView.swift */,
 				CFBF68562C0AD0900083BD6B /* Assets.xcassets */,
 				CFBF68582C0AD0900083BD6B /* Preview Content */,
-				CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */,
-				CFBF68812C0AD13A0083BD6B /* Profile.swift */,
 				CFBF68832C0AD2BA0083BD6B /* Auth0.plist */,
+				CFE9CA282C0D22B9009C7E7E /* Styling.swift */,
 			);
 			path = BetterBoxdAuth;
 			sourceTree = "<group>";
@@ -136,6 +146,32 @@
 				CFBF686F2C0AD0900083BD6B /* BetterBoxdAuthUITestsLaunchTests.swift */,
 			);
 			path = BetterBoxdAuthUITests;
+			sourceTree = "<group>";
+		};
+		CFE9CA1E2C0D1269009C7E7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */,
+				CFE9CA242C0D1CFA009C7E7E /* OnboardingView .swift */,
+				CFE9CA262C0D2109009C7E7E /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CFE9CA1F2C0D1272009C7E7E /* Models  */ = {
+			isa = PBXGroup;
+			children = (
+				CFBF68812C0AD13A0083BD6B /* Profile.swift */,
+			);
+			path = "Models ";
+			sourceTree = "<group>";
+		};
+		CFE9CA202C0D1288009C7E7E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CFE9CA212C0D17C7009C7E7E /* AuthController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +313,11 @@
 			files = (
 				CFBF68802C0AD0F30083BD6B /* AuthStarterView.swift in Sources */,
 				CFBF68822C0AD13A0083BD6B /* Profile.swift in Sources */,
+				CFE9CA292C0D22B9009C7E7E /* Styling.swift in Sources */,
+				CFE9CA222C0D17C7009C7E7E /* AuthController.swift in Sources */,
 				CFBF68552C0AD08F0083BD6B /* ContentView.swift in Sources */,
+				CFE9CA252C0D1CFA009C7E7E /* OnboardingView .swift in Sources */,
+				CFE9CA272C0D2109009C7E7E /* ProfileView.swift in Sources */,
 				CFBF68532C0AD08F0083BD6B /* BetterBoxdAuthApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
