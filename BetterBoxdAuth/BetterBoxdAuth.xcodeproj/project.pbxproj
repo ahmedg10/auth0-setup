@@ -22,6 +22,9 @@
 		CFE9CA252C0D1CFA009C7E7E /* OnboardingView .swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9CA242C0D1CFA009C7E7E /* OnboardingView .swift */; };
 		CFE9CA272C0D2109009C7E7E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9CA262C0D2109009C7E7E /* ProfileView.swift */; };
 		CFE9CA292C0D22B9009C7E7E /* Styling.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFE9CA282C0D22B9009C7E7E /* Styling.swift */; };
+		CFF9F91B2C0E68EE00644668 /* SlowOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9F91A2C0E68EE00644668 /* SlowOnboardingView.swift */; };
+		CFF9F91D2C0E774900644668 /* UserInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9F91C2C0E774900644668 /* UserInputView.swift */; };
+		CFF9F91F2C0E82FB00644668 /* OnboardingStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF9F91E2C0E82FB00644668 /* OnboardingStep.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,9 @@
 		CFE9CA242C0D1CFA009C7E7E /* OnboardingView .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OnboardingView .swift"; sourceTree = "<group>"; };
 		CFE9CA262C0D2109009C7E7E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		CFE9CA282C0D22B9009C7E7E /* Styling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styling.swift; sourceTree = "<group>"; };
+		CFF9F91A2C0E68EE00644668 /* SlowOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowOnboardingView.swift; sourceTree = "<group>"; };
+		CFF9F91C2C0E774900644668 /* UserInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInputView.swift; sourceTree = "<group>"; };
+		CFF9F91E2C0E82FB00644668 /* OnboardingStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingStep.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +160,8 @@
 				CFBF687F2C0AD0F30083BD6B /* AuthStarterView.swift */,
 				CFE9CA242C0D1CFA009C7E7E /* OnboardingView .swift */,
 				CFE9CA262C0D2109009C7E7E /* ProfileView.swift */,
+				CFF9F91A2C0E68EE00644668 /* SlowOnboardingView.swift */,
+				CFF9F91C2C0E774900644668 /* UserInputView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				CFBF68812C0AD13A0083BD6B /* Profile.swift */,
+				CFF9F91E2C0E82FB00644668 /* OnboardingStep.swift */,
 			);
 			path = "Models ";
 			sourceTree = "<group>";
@@ -313,9 +322,12 @@
 			files = (
 				CFBF68802C0AD0F30083BD6B /* AuthStarterView.swift in Sources */,
 				CFBF68822C0AD13A0083BD6B /* Profile.swift in Sources */,
+				CFF9F91B2C0E68EE00644668 /* SlowOnboardingView.swift in Sources */,
 				CFE9CA292C0D22B9009C7E7E /* Styling.swift in Sources */,
 				CFE9CA222C0D17C7009C7E7E /* AuthController.swift in Sources */,
 				CFBF68552C0AD08F0083BD6B /* ContentView.swift in Sources */,
+				CFF9F91D2C0E774900644668 /* UserInputView.swift in Sources */,
+				CFF9F91F2C0E82FB00644668 /* OnboardingStep.swift in Sources */,
 				CFE9CA252C0D1CFA009C7E7E /* OnboardingView .swift in Sources */,
 				CFE9CA272C0D2109009C7E7E /* ProfileView.swift in Sources */,
 				CFBF68532C0AD08F0083BD6B /* BetterBoxdAuthApp.swift in Sources */,

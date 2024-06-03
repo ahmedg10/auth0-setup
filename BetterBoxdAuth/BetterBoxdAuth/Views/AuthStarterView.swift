@@ -14,7 +14,7 @@ struct AuthStarterView: View {
     var body: some View {
         NavigationView {
             if authViewModel.isAuthenticated {
-                OnboardingView(profile: $authViewModel.userProfile)
+                SlowOnboardingView(profile: $authViewModel.userProfile)
             } else {
                 VStack {
                     Text("SwiftUI Login Demo")
@@ -23,7 +23,7 @@ struct AuthStarterView: View {
                     Button("Log in") {
                         authViewModel.login()
                     }
-                    .buttonStyle(MyButtonStyle())
+                    .buttonStyle(CustomButtonStyle())
                 }
             }
         }
